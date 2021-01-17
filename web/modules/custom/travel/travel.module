@@ -1,0 +1,13 @@
+<?php 
+
+/**
+ * Implements hook_theme().
+ */
+function travel_theme($existing, $type, $theme, $path) {
+    
+    return array(
+        'article_list' => array(
+            'variables' => array('items' => array(), 'title' => '')
+        )
+    );
+}

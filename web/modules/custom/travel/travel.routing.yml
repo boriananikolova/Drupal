@@ -1,0 +1,7 @@
+travel.article_list:
+  path: '/travel/articles'
+  defaults:
+    _controller: 'Drupal\travel\Controller\ArticleController::page'
+    _title: 'Simple travel module'
+  requirements:
+    _permission: 'access content'
