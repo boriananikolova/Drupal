@@ -1,7 +1,7 @@
-travel.article_list:
-  path: '/travel/articles'
+travel.privacy_policy:
+  path: '/travel/privacy'
   defaults:
-    _controller: 'Drupal\travel\Controller\ArticleController::page'
-    _title: 'Simple travel module'
+    _controller: 'Drupal\travel\Controller\PrivacyController::page'
+    _title: 'Simple privacy policy module'
   requirements:
     _permission: 'access content'
