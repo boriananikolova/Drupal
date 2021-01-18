@@ -5,3 +5,4 @@
 # 5. Pages: Home, Trips, Contact us, About us, Privacy policy
 # 6. Custom module - Travel Privacy Policy Module
 # 7. Admin - username: admin | password: boryana
+# 8. DB - drupal_project.sql
